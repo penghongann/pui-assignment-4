@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flip Stitch - Product Details</title>
+	<link rel="stylesheet" type="text/css" href="main.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script src="shoppingcart.js" type="text/javascript"></script>
+	<script src="wishlist.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<header>
+		<ul class="nav">
+			<a href=""><img id="logo" src="image/logo.png"/></a>
+			<li><a href="index.html">Home</a></li>
+			<li><a style="color:#CF6D6D;" href="productlisting.html">Product</a></li>
+			<li><a href="/about">About</a></li>
+			<li><a href="/contact">Contact</a></li>	
+			<li class="cart"><a href="wishlist.html">Wishlist</a></p>
+			<p class="cart">|</p>
+			<li class="cart"><a href="shoppingcart.html">Shopping Cart</a> <p id="itemCount">0</p></li>
+		</ul>
+	</header>
+
+	<div class="indicatorBox">
+		<p id="indicator">PRODUCT DETAILS</p>
+	</div>
+
+	<div>
+		<img id="product" src="image/product.png"/>
+
+		<div class="details">
+			<h1 class="productdetails" id="productname">Throw Pillow-Geometric</h1>
+			<h1 class="productdetails" id="productprice">$12.00</h1>
+
+			<div class="selection">
+
+				<section class="selectType">
+					<p style="color:#606060; font-size:18px">Type:</p>
+
+					<div class="radio-toolbar">
+  						<input type="radio" id="radio1" name="radios" value="Couch" checked>
+  						<label for="radio1">Couch</label>
+
+  						<input type="radio" id="radio2" name="radios" value="Bed" >
+  						<label for="radio2">Bed</label>
+
+  						<input type="radio" id="radio3" name="radios" value="Floor Pouf">
+  						<label for="radio3">Floor Pouf</label>
+					</div>
+
+				</section>
+
+				<div>
+					<p style="color:#606060; font-size:18px">Select the shape to apply this pattern:</p>
+					<div id="myType">
+  						<label>
+    						<input type="radio" class="option-input radio" name="example" value="Square" checked />Square
+    					</label>
+  						
+ 						<label>
+    						<input type="radio" class="option-input radio" name="example" value="Round" />Round
+  						</label>
+  						<label>
+    						<input type="radio" class="option-input radio" name="example" value="Dog" />Dog
+  						</label>
+  						<label>
+    						<input type="radio" class="option-input radio" name="example" value="Bear" />Bear
+  						</label>
+  						<label>
+    						<input type="radio" class="option-input radio" name="example" value="Bunny" />Bunny
+  						</label>
+  						<label>
+    						<input type="radio" class="option-input radio" name="example" value="Cat" />Cat
+  						</label>
+					</div>
+
+				</div>
+			</div>
+
+			<p id=textbox>Tell us here if you want to customize it.</p>
+			<button id="wishlist">Add To Wishlist</button>
+			
+			<button id="cta">
+				Add To Cart
+			</button>
+
+			<br/>
+			<br/>
+			<br/>
+			
+
+		</div>	
+			
+	</div>
+
+			
+
+</body>
